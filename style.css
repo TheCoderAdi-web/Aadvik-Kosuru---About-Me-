@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+*{
+    font-family: "Cal Sans", sans-serif;
+    overflow-x: hidden;
+    color: white;
+}
+
+body{
+    background-color: #006bb8;
+}
+
+footer {
+    position: fixed;
+}
+
+/* Nav Bar Styling */
+
+.navBar{
+    background-color: #c33149;
+    border-radius: 20px;
+    height: 60px;
+    width: 97vw;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    position: fixed;
+}
+
+.navBar nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20pt;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Styling */
+
+.main{
+    margin-top: 70px;
+    background-color: #ffcf00;
+    height: 82.3vh;
+    border-radius: 20px;
+}
+
+#homeMain {
+    display: flex;
+}
+
+#homeMain p {
+    opacity: 0;
+    font-size: 14pt;
+    animation: fade 1s forwards;
+    animation-delay: 4s;
+}
+
+#aboutMeMain {
+    display: flex;
+}
+
+.namePlate{
+    padding: 100px;
+    width: 500px;
+}
+
+.hello{
+    font-size: 40pt;
+    margin: 0px;
+    padding: 0px;
+    transform: translateX(1000px);
+    animation: slideIn 1s forwards;
+}
+
+.myNameIs{
+    font-size: 35pt;
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(-1000px);
+    animation: slideInTop 1s forwards;
+    animation-delay: 1s;
+}
+
+.name{
+    font-size: 60pt;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(45deg, #8A2BE2, #0740fb, rgb(0, 193, 0));
+    color: transparent;
+    background-clip: text;
+    background-size: 90%;
+    -webkit-background-clip: text;
+    transform: translateX(-1000px);
+    animation: slideIn 1s forwards;
+    animation-delay: 2s;
+}
+
+.namePlate p{
+    font-size: 15pt;
+    animation-delay: 3s;
+}
+
+.homeImageContainer{
+    position: absolute;
+    bottom: 50px;
+    left: 530px;
+    width: 60%;
+    height: 70%;
+}
+
+.homeImage{
+    position: absolute;
+    bottom: 50px;
+    left: 330px;
+    width: 60%;
+    height: 70%;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#homeImage2{
+    width: 30%;
+    height: 30%;
+    rotate: 45deg;
+    bottom: 350px;
+    left: 590px;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* About me page */
+
+#aboutMeMain p {
+    opacity: 0;
+    font-size: 24pt;
+    animation: fade 1s forwards;
+}
+
+#aboutMeMain ::-webkit-scrollbar-track {
+    background-color: #cea904;
+}
+
+.aboutMeParagraph {
+    padding-left: 30px;
+    width: 50%;
+}
+
+.aboutMeContainer {
+    display: flex;
+}
+
+.myGoals {
+    padding-left: 30px;
+    width: 50%;
+}
+
+#aboutMeMain .myGoals p {
+    animation-delay: 2s;
+}
+
+.myGoals ul li {
+    font-size: 18pt;
+    transform: translateX(1000px);
+}
+
+.goal1 {
+    animation: slideIn 1s forwards;
+    animation-delay: 3s;
+}
+
+.goal2 {
+    animation: slideIn 1s forwards;
+    animation-delay: 3.5s;
+}
+
+.goal3 {
+    animation: slideIn 1s forwards;
+    animation-delay: 4s;
+}
+
+.goal4 {
+    animation: slideIn 1s forwards;
+    animation-delay: 4.5s;
+}
+
+.helloImage{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    animation: slideIn 1s forwards;
+    transform: translateX(1000px);
+}
+
+/* My Startup page */
+
+.links h2{
+    font-size: 30pt;
+    animation: slideIn 1s forwards;
+    animation-delay: 3s;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #0071e0;
+}
+
+.startupIntoduction {
+    opacity: 0;
+    font-size: 24pt;
+    animation: fade 1s forwards;
+    margin-right: 40px;
+    margin-left: 40px;
+    animation-delay: 1.5s;
+}
+
+#myStartupMain {
+    text-align: center;
+    height: 85vh;
+}
+
+#myStartupMain h1{
+    transform: translateY(-1000px);
+    animation: slideInTop 1s forwards;
+}
+
+.link1{
+    transform: translateX(1000px);
+}
+
+.link2{
+    transform: translateX(-1000px);
+}
+
+/* Projects */
+#myProjectsMain {
+    align-items: bottom;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+
+.project {
+    background-color: white;
+    width: 400px;
+    height: 405px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.18);
+    border-radius: 20px;
+}
+
+#project1 {
+    transform: translateY(-1000px);
+    animation: slideInTop 1s forwards;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#project2 {
+    transform: translateX(-1000px);
+    animation: slideIn 1s forwards;
+    animation-delay: 1s;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#project3 {
+    transform: translateX(2000px);
+    animation: slideIn 1s forwards;
+    animation-delay: 2s;
+    height: 830px;
+    grid-column: 3;
+    grid-row: span 2;
+}
+
+.projectImage {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 40px;
+    zoom: 120%;
+}
+
+#project3 .projectImage {
+    height: 400px;
+    border-radius: 20px;
+    width: 333px;
+    height: 711px;
+    zoom: normal;
+}
+
+.projectDescription {
+    margin-left: 45px;
+    color: black;
+}
+
+/* Animations */
+
+@keyframes float {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fade {
+    to {
+        opacity: 1;
+    }
+
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideInTop {
+    to {
+        transform: translateY(0px);
+    }
+}

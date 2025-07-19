@@ -188,11 +188,6 @@ ul li a {
     animation-delay: 4s;
 }
 
-.goal4 {
-    animation: slideIn 1s forwards;
-    animation-delay: 4.5s;
-}
-
 .helloImage{
     width: 10%;
     height: 10%;

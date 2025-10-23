@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
-*{
+* {
     font-family: "Cal Sans", sans-serif;
     overflow-x: hidden;
     color: white;
 }
 
-body{
+body {
     background-color: #006bb8;
 }
 
@@ -16,7 +16,7 @@ footer {
 
 /* Nav Bar Styling */
 
-.navBar{
+.navBar {
     background-color: #c33149;
     border-radius: 20px;
     height: 60px;
@@ -43,7 +43,7 @@ ul li a {
 
 /* Main Styling */
 
-.main{
+.main {
     margin-top: 70px;
     background-color: #ffcf00;
     height: 82.3vh;
@@ -65,12 +65,12 @@ ul li a {
     display: flex;
 }
 
-.namePlate{
+.namePlate {
     padding: 100px;
     width: 500px;
 }
 
-.hello{
+.hello {
     font-size: 40pt;
     margin: 0px;
     padding: 0px;
@@ -78,7 +78,7 @@ ul li a {
     animation: slideIn 1s forwards;
 }
 
-.myNameIs{
+.myNameIs {
     font-size: 35pt;
     margin: 0px;
     padding: 0px;
@@ -87,7 +87,7 @@ ul li a {
     animation-delay: 1s;
 }
 
-.name{
+.name {
     font-size: 60pt;
     margin: 0px;
     padding: 0px;
@@ -101,12 +101,12 @@ ul li a {
     animation-delay: 2s;
 }
 
-.namePlate p{
+.namePlate p {
     font-size: 15pt;
     animation-delay: 3s;
 }
 
-.homeImageContainer{
+.homeImageContainer {
     position: absolute;
     bottom: 50px;
     left: 530px;
@@ -114,7 +114,7 @@ ul li a {
     height: 70%;
 }
 
-.homeImage{
+.homeImage {
     position: absolute;
     bottom: 50px;
     left: 330px;
@@ -126,7 +126,7 @@ ul li a {
     animation-iteration-count: infinite;
 }
 
-#homeImage2{
+#homeImage2 {
     width: 30%;
     height: 30%;
     rotate: 45deg;
@@ -193,7 +193,7 @@ ul li a {
     animation-delay: 4.5s;
 }
 
-.helloImage{
+.helloImage {
     width: 10%;
     height: 10%;
     position: absolute;
@@ -205,7 +205,7 @@ ul li a {
 
 /* My Startup page */
 
-.links h2{
+.links h2 {
     font-size: 30pt;
     animation: slideIn 1s forwards;
     animation-delay: 3s;
@@ -230,16 +230,16 @@ h2 a {
     height: 85vh;
 }
 
-#myStartupMain h1{
+#myStartupMain h1 {
     transform: translateY(-1000px);
     animation: slideInTop 1s forwards;
 }
 
-.link1{
+.link1 {
     transform: translateX(1000px);
 }
 
-.link2{
+.link2 {
     transform: translateX(-1000px);
 }
 
@@ -313,9 +313,11 @@ h2 a {
     0% {
         transform: translateY(-20px);
     }
+
     50% {
         transform: translateY(0px);
     }
+
     100% {
         transform: translateY(-20px);
     }
